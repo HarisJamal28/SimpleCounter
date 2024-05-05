@@ -1,0 +1,47 @@
+#Main{
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+
+    h1{
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0;
+        margin: 10px;
+    }
+
+    #Count{
+        font-size: 100px;
+        padding: 30px;
+    }
+
+    #Commands{
+        // border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+
+        button{
+            border: 1px solid black;
+            background-color: white;
+            height: fit-content;
+            width: fit-content;
+            font-size: large;
+            padding: 10px;
+
+            &:first-child:hover{
+                background-color: red;
+                color: white;
+            }
+            &:last-child:hover{
+                background-color: green;
+                color: white;
+            }
+        }
+    }
+}
